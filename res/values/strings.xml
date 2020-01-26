@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Present Sir</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="only_iitg_feature">
+        This feature is presently available only for IIT Guwahati B.Tech. and B.Des. students. Press OK to continue.</string>
+    
+    <string name="sure_add_courses">
+        This will auto-add the time table of these courses. All the previous data and time table will be deleted.</string>
+    
+    <string name="spcl_msg_chem_4th_yr">
+        The Wednesday class for the course numbered CL 403 has been added from 2pm to 3pm instead of 2pm to 5pm.</string>
+        
+    <string name="spcl_msg_cst_4th_yr">
+        The Friday class for the course numbered CH 402 has been added from 2pm to 3pm instead of 2pm to 5pm.</string>
+        
+    <string name="spcl_msg_dd_4th_yr">
+        The Wednesday class for the course numbered DD 498 has been added from 9am to 10am instead of 9am to 11am.
+        The Friday class for the course numbered DD 401 has been added from 9am to 10am instead of 9am to 12pm.
+        Update the venue of DD 498 class manually.</string>
+        
+    <string name="spcl_msg_chem_3rd_yr">
+        For lack of information, the Tuesday class for the course numbered CL 304 has not been added. You may edit the course time table manually.</string>
+        
+    <string name="spcl_msg_dd_3rd_yr">
+        The Wednesday class for the course numbered DD 301 has been added from 9am to 10am instead of 9am to 12pm.
+        The Thursday class for the course numbered DD 305 has been added from 10am to 11am instead of 10am to 1pm.</string>
+    
+    <string name="spcl_msg_mech_3rd_yr">
+        The venue for all the classes (except Electrical Machines) has been updated as 1005/3. You may edit it manually.</string>
+    
+    <string name="spcl_msg_chem_cst_2nd_yr">
+        Only one Wednesday class for the course numbered CL 202 has been added from 3pm to 4pm. You may add the tutorail class manually.</string>
+        
+    <string name="spcl_msg_dd_2nd_yr">
+        Our code complexity does not allow us to auto-add the course list for B.Des. 2nd year students. We are working hard to develop this feature for you in the next update. You may add your courses manually in the current version.</string>
+        
+    <string name="spcl_msg_mech_2nd_yr">
+        The venue for all the classes has been updated as 1005/3. You may edit it manually.</string>
+        
+    <string name="auto_tt_update_success_msg">
+        Your time table has been updated successfully. All the Bunk Meter are off and bunk counts set to zero by default. Go to My TimeTable to make any changes in the time table.</string>
+        
+    <string name="changes_not_saved_msg">
+        Your changes have not been saved yet. Are you sure you want to exit?</string>
+        
+    <string name="course_added_msg">
+        The course has successfully been added to your time table.</string>
+        
+    <string name="select_at_least_one_day_msg">
+        Please set time table of at least one day.</string>
+        
+    <string name="course_delete_msg">
+        This course will be deleted</string>
+        
+    <string name="changes_saved_msg">
+        Your changes have been saved</string>
+        
+    <string name="disclaimer_msg">
+        Disclaimer: The App does not claim to provide you 75% attendance. Any outcomes resulting from your attendance are solely your responsibility. :P</string>
+        
+    <string name="email_subject">
+        Present Sir - Feedback/Reporting Bug</string>
+        
+    <string name="no_courses_to_show_msg">
+        You have no course in your course list. Press OK to go to settings and use TimeTable templates or add courses manually.
+        </string>
+        
+    <string name="use_temp_or_add_course_toast">
+        Use timetable templates or add a course manually
+        </string>
+        
+    <string name="no_pt_to_show_msg">
+        You have no PT course in your course list. Press OK to add a PT course.
+        </string>
+        
+    <string name="no_nso_nss_nss_to_show_msg">
+        You have no NSO/ NSS/ NCC course in your course list. Press OK to add NSO/ NSS/ NCC course.
+        </string>
+        
+    <string name="no_courses_to_show_msg_whats_next_bunk_stats">
+        You have no course in your course list. Go to settings and use TimeTable templates or add courses manually.
+        </string>
+        
+    <string name="click_edit_to_edit">
+        Click on Edit TimeTable to edit.
+        </string>
+    
+    <string name="toast_for_yr1">
+        Please update tutorails manually
+        </string>
+        
+    <string name="toast_for_yr2">
+        Please update HSS, Minor and Tutorails manually
+        </string>
+        
+    <string name="toast_for_yr3">
+        Please update HSS, Minor and Tutorails manually
+        </string>
+    
+    <string name="toast_for_yr4">
+        Please update Electives, Minor and Tutorails manually
+        </string>
+    
+    <string name="select_nso_nss_ncc_prompt">Select NSO/NSS/NCC</string>
+
+</resources>

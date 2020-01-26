@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arpit.iitg.presentsir"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.arpit.iitg.presentsir.AppHome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="ViewTodayTT"
+            android:parentActivityName="com.arpit.iitg.presentsir.AppHome"></activity>
+        
+        <activity android:name="MyTimeTable"
+			android:parentActivityName="com.arpit.iitg.presentsir.AppHome"></activity>
+        
+        <activity android:name="Settings"
+			android:parentActivityName="com.arpit.iitg.presentsir.AppHome"></activity>
+        
+        <activity android:name="Credits"
+			android:parentActivityName="com.arpit.iitg.presentsir.AppHome"></activity>
+        
+        <activity android:name="BunkMeterStats"
+			android:parentActivityName="com.arpit.iitg.presentsir.AppHome"></activity>
+        
+        <activity android:name="PTBunkMeterCheck"
+			android:noHistory="true"
+            android:excludeFromRecents="true"		
+            android:launchMode = "singleInstance"></activity>
+        
+        <activity android:name="NSO_NSS_NCC_BunkMeterCheck"
+			android:noHistory="true"
+            android:excludeFromRecents="true"		
+            android:launchMode = "singleInstance"></activity>
+        
+        <activity android:name="BunkMeterCheck"
+			android:noHistory="true"
+            android:excludeFromRecents="true"		
+            android:launchMode = "singleInstance"></activity>
+        
+        <activity android:name="AutoUpdateBunkMeter"
+			android:excludeFromRecents="true"		
+            android:launchMode = "singleInstance"
+            android:parentActivityName="com.arpit.iitg.presentsir.AppHome"></activity>
+        
+        <activity android:name="CustomListAdapter"></activity>
+        
+        <activity android:name="ViewPTNSOTT"
+			android:parentActivityName="com.arpit.iitg.presentsir.MyTimeTable"></activity>
+        
+        <activity android:name="SelectCoursePtNsoToAdd"
+			android:parentActivityName="com.arpit.iitg.presentsir.Settings"></activity>
+        
+        <activity android:name="ShowAllCoursesToEdit"
+			android:parentActivityName="com.arpit.iitg.presentsir.MyTimeTable"></activity>
+        
+        <activity android:name="AutoUpdateNSONSSNCCBunkMeter"
+			android:excludeFromRecents="true"		
+            android:launchMode = "singleInstance"
+            android:parentActivityName="com.arpit.iitg.presentsir.AppHome"></activity>
+        
+        <activity android:name="AutoUpdatePTBunkMeter"
+			android:excludeFromRecents="true"		
+            android:launchMode = "singleInstance"
+            android:parentActivityName="com.arpit.iitg.presentsir.AppHome"></activity>
+        
+        <activity android:name="AddCourseNameNumVenue"
+			android:parentActivityName="com.arpit.iitg.presentsir.SelectCoursePtNsoToAdd"
+		    android:windowSoftInputMode="stateVisible"></activity>
+        
+        <activity android:name="AddPtNameNumVenue"
+			android:parentActivityName="com.arpit.iitg.presentsir.SelectCoursePtNsoToAdd"
+	     	android:windowSoftInputMode="stateVisible"></activity>
+        
+        <activity android:name="AddNSO_NCC_NSS"></activity>
+        
+        <activity android:name="SoundSettings"
+            android:parentActivityName="com.arpit.iitg.presentsir.Settings"></activity>
+        
+        <activity android:name="SelectYearBranch"
+			android:parentActivityName="com.arpit.iitg.presentsir.Settings"></activity>
+        
+        <activity android:name="ViewIndividualCourseTT"
+			android:parentActivityName="com.arpit.iitg.presentsir.ShowAllCoursesToEdit"></activity>
+        
+        <activity android:name="ViewWeekLongTT"
+			android:parentActivityName="com.arpit.iitg.presentsir.MyTimeTable"></activity>
+        
+        <activity android:name="EditIndividualCourseNameNumVenuBC"
+            android:parentActivityName="com.arpit.iitg.presentsir.ShowAllCoursesToEdit"
+		    android:windowSoftInputMode="stateVisible"></activity>
+        
+        <activity android:name="EditPtNameNumVenue"
+			android:windowSoftInputMode="stateVisible"></activity>
+        
+        <activity android:name="EditNSOTT"></activity>
+        
+        <activity android:name="SetTT"></activity>
+        
+        <activity android:name="SetPT"></activity>
+        
+        <activity android:name="EditIndividualCourseTT"
+			android:windowSoftInputMode="stateHidden"></activity>
+        
+        <activity android:name="EditPTTT"></activity>
+        
+        <activity android:name="ShowInBuildTemplates"
+			android:parentActivityName="com.arpit.iitg.presentsir.SelectYearBranch"></activity>
+        
+    </application>
+
+</manifest>

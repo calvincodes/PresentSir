@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/chalkboard_bg">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+		android:weightSum="100">
+		
+        		<LinearLayout
+			        android:layout_width="match_parent"
+				    android:layout_height="0dp"
+				    android:layout_weight="50"
+				    android:orientation="vertical"
+				    android:weightSum="50">
+				    
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+							    android:layout_height="0dp"
+							    android:layout_weight="3"/>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+						        android:layout_height="0dp"
+						        android:layout_weight="10"
+						        android:orientation="horizontal"
+						        android:weightSum="1">
+						        
+		        		    		    <LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.05"/>
+        		    		
+			        		    		<EditText
+									        android:id="@+id/course_name_eicnnvp_et"
+									        android:layout_width="0dp"
+										    android:layout_height="match_parent"
+									        android:gravity="center"
+									        android:hint="Course Name"
+									        android:textSize="20sp"
+									        android:layout_weight="0.9"
+									        android:textColor="#FFFFFF"/>
+			        		    		
+			        		    		<LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.05"/>
+        		    		
+        		    		</LinearLayout>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+							    android:layout_height="0dp"
+							    android:layout_weight="2"/>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+						        android:layout_height="0dp"
+						        android:layout_weight="10"
+						        android:orientation="horizontal"
+						        android:weightSum="2">
+						        
+		        		    		    <LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.05"/>
+        		    		
+			        		    		<EditText
+									        android:id="@+id/course_num_eicnnvp_et"
+									        android:layout_width="0dp"
+										    android:layout_height="match_parent"
+									        android:gravity="center"
+									        android:hint="Course No."
+									        android:textSize="20sp"
+									        android:layout_weight="0.9"
+									        android:textColor="#FFFFFF"/>
+			        		    		
+			        		    		<LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.1"/>
+        		    		
+			        		    		<EditText
+									        android:id="@+id/course_venue_eicnnvp_et"
+									        android:layout_width="0dp"
+										    android:layout_height="match_parent"
+									        android:gravity="center"
+									        android:hint="Venue"
+									        android:textSize="20sp"
+									        android:layout_weight="0.9"
+									        android:textColor="#FFFFFF"/>
+			        		    		
+			        		    		<LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.05"/>
+        		    		
+        		    		</LinearLayout>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+							    android:layout_height="0dp"
+							    android:layout_weight="2"/>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+						        android:layout_height="0dp"
+						        android:layout_weight="10"
+						        android:orientation="horizontal"
+						        android:weightSum="2">
+						        
+		        		    		    <LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.2"/>
+        		    		
+			        		    		<ImageButton
+									        android:id="@+id/down_bm_count_eicnnvp"
+									        android:layout_width="0dp"
+									       	android:layout_height="match_parent"
+									       	android:layout_weight="0.2"
+									        android:background="?android:attr/selectableItemBackground"
+									        android:gravity="center"
+									        android:src="@drawable/nav_down"/>
+									     	    
+									    <TextView 
+									        android:id="@+id/bm_count_tv_eicnnvp"   
+									        android:layout_width="0dp"
+									       	android:layout_height="match_parent"
+									       	android:layout_weight="1.2"
+									   		android:text="Bunk Count: 0"
+									        android:textSize="25sp"
+									        android:gravity="center"
+									        android:textColor="#FFFFFF"
+									        android:background="?android:attr/selectableItemBackground"/> 	   
+									     	    
+								   	    <ImageButton
+									        android:id="@+id/up_bm_count_eicnnvp"
+								   	        android:layout_width="0dp"
+									       	android:layout_height="match_parent"
+									       	android:layout_weight="0.2"
+									        android:background="?android:attr/selectableItemBackground"
+									        android:gravity="center"
+									        android:src="@drawable/nav_up"/>
+			        		    		
+			        		    		<LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.2"/>
+        		    		
+        		    		</LinearLayout>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+							    android:layout_height="0dp"
+							    android:layout_weight="2"/>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+						        android:layout_height="0dp"
+						        android:layout_weight="10"
+						        android:orientation="horizontal"
+						        android:weightSum="1">
+						        
+		        		    		    <LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.18"/>
+		        		    		    
+		        		    		    <Switch
+									        android:id="@+id/bunk_meter_switch_eicnnvp"
+									        android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.6"
+									        android:text="Bunk Meter"
+							       			android:textSize="20sp"
+									        android:textColor="#FFFFFF"
+											android:gravity="right|center"/>
+			        		    		
+			        		    		<LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.22"/>
+        		    		
+        		    		</LinearLayout>
+					
+      		    </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

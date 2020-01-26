@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/chalkboard_bg">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+		android:weightSum="100">
+		
+        		<LinearLayout
+			        android:layout_width="match_parent"
+				    android:layout_height="0dp"
+				    android:layout_weight="50"
+				    android:orientation="vertical"
+				    android:weightSum="50">
+				    
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+							    android:layout_height="0dp"
+							    android:layout_weight="3"/>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+						        android:layout_height="0dp"
+						        android:layout_weight="10"
+						        android:orientation="horizontal"
+						        android:weightSum="1">
+						        
+		        		    		    <LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.05"/>
+        		    		
+			        		    		<EditText
+									        android:id="@+id/course_name_aptnnv_et"
+									        android:layout_width="0dp"
+										    android:layout_height="match_parent"
+									        android:gravity="center"
+									        android:text="Physical Training"
+									        android:hint="Course Name"
+									        android:textSize="20sp"
+									        android:layout_weight="0.9"
+									        android:textColor="#FFFFFF"/>
+			        		    		
+			        		    		<LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.05"/>
+        		    		
+        		    		</LinearLayout>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+							    android:layout_height="0dp"
+							    android:layout_weight="2"/>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+						        android:layout_height="0dp"
+						        android:layout_weight="10"
+						        android:orientation="horizontal"
+						        android:weightSum="1">
+						        
+		        		    		    <LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.05"/>
+        		    		
+			        		    		<EditText
+									        android:id="@+id/course_num_aptnnv_et"
+									        android:layout_width="0dp"
+										    android:layout_height="match_parent"
+									        android:gravity="center"
+									        android:hint="Course No."
+									        android:textSize="20sp"
+									        android:layout_weight="0.9"
+									        android:textColor="#FFFFFF"/>
+			        		    		
+			        		    		<LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.05"/>
+        		    		
+        		    		</LinearLayout>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+							    android:layout_height="0dp"
+							    android:layout_weight="2"/>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+						        android:layout_height="0dp"
+						        android:layout_weight="10"
+						        android:orientation="horizontal"
+						        android:weightSum="1">
+						        
+		        		    		    <LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.05"/>
+        		    		
+			        		    		<EditText
+									        android:id="@+id/course_venue_aptnnv_et"
+									        android:layout_width="0dp"
+										    android:layout_height="match_parent"
+									        android:gravity="center"
+									        android:text="SAC Ground"
+									        android:hint="Course Venue"
+									        android:textSize="20sp"
+									        android:layout_weight="0.9"
+									        android:textColor="#FFFFFF"/>
+			        		    		
+			        		    		<LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.05"/>
+        		    		
+        		    		</LinearLayout>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+							    android:layout_height="0dp"
+							    android:layout_weight="2"/>
+        		    		
+        		    		<LinearLayout 
+        		    		    android:layout_width="match_parent"
+						        android:layout_height="0dp"
+						        android:layout_weight="10"
+						        android:orientation="horizontal"
+						        android:weightSum="1">
+						        
+		        		    		    <LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.2"/>
+		        		    		    
+		        		    		    <Switch
+									        android:id="@+id/bunk_meter_switch_aptnnv"
+									        android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.6"
+									        android:text="Bunk Meter"
+							       			android:textSize="20sp"
+									        android:textColor="#FFFFFF"
+											android:gravity="right|center"/>
+			        		    		
+			        		    		<LinearLayout 
+			        		    		    android:layout_width="0dp"
+										    android:layout_height="match_parent"
+										    android:layout_weight="0.2"/>
+        		    		
+        		    		</LinearLayout>
+					
+      		    </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

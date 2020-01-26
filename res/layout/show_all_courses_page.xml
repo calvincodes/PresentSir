@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/chalkboard_bg"
+    android:weightSum="100">
+    
+    <LinearLayout
+    		    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="2"/>
+    
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="10"
+			    android:orientation="horizontal"
+			    android:weightSum="1">
+    		    
+    		    	<LinearLayout
+		    		    android:layout_width="0dp"
+					    android:layout_height="match_parent"
+					    android:layout_weight="0.2"/>
+    		    	
+    		    	<TextView
+    		    	    android:id="@+id/all_courses_title_sactep"
+    		    	    android:layout_width="0dp"
+					    android:layout_height="match_parent"
+					    android:layout_weight="0.6"
+					    android:background="?android:attr/selectableItemBackground"
+					    android:text="Your Courses"
+					    android:textSize="28sp"
+					    android:gravity="center"
+					    android:textColor="#FFFFFF"/>
+    		    	
+    		    	<LinearLayout
+		    		    android:layout_width="0dp"
+					    android:layout_height="match_parent"
+					    android:layout_weight="0.2"/>
+    		    
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="3"/>
+    		
+    		<LinearLayout 
+    		    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+    		    android:layout_weight="76"
+    		    android:orientation="horizontal"
+    		    android:weightSum="1">
+    		    	
+    		    
+	    		    <LinearLayout 
+	    		        android:layout_width="0dp"
+					    android:layout_height="match_parent"
+		    		    android:layout_weight="0.01"/>
+	    		    
+	    		    <LinearLayout 
+	    		        android:layout_width="0dp"
+					    android:layout_height="match_parent"
+		    		    android:layout_weight="0.99">
+		    		    
+	    		        	<ListView
+						       	android:id="@+id/show_all_course_list_sactep"
+						       	android:layout_width="match_parent"
+							    android:layout_height="wrap_content"/>
+		    		    
+   		        	</LinearLayout>
+    		    
+    		</LinearLayout>
+    		
+    		<TextView
+    		    android:id="@+id/select_any_course_tv_sactep"
+    		    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="3"
+			    android:background="?android:attr/selectableItemBackground"
+			    android:text="Select any course for more options"
+			    android:textSize="12sp"
+			    android:gravity="center"
+			    android:textColor="#FFFFFF"/>
+    		
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="6"/>
+
+</LinearLayout>

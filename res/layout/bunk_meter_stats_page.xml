@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/chalkboard_bg"
+    android:weightSum="100">
+
+    <LinearLayout
+    		    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="2"/>
+    
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="10"
+			    android:orientation="horizontal"
+			    android:weightSum="1">
+    		    
+    		    	<LinearLayout
+		    		    android:layout_width="0dp"
+					    android:layout_height="match_parent"
+					    android:layout_weight="0.2"/>
+    		    	
+    		    	<TextView
+    		    	    android:id="@+id/bm_stats_title_bmsp"
+    		    	    android:layout_width="0dp"
+					    android:layout_height="match_parent"
+					    android:layout_weight="0.6"
+					    android:background="?android:attr/selectableItemBackground"
+					    android:text="Bunk Stats"
+					    android:textSize="28sp"
+					    android:gravity="center"
+					    android:textColor="#FFFFFF"/>
+    		    	
+    		    	<LinearLayout
+		    		    android:layout_width="0dp"
+					    android:layout_height="match_parent"
+					    android:layout_weight="0.2"/>
+    		    
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="3"/>
+    		
+    		<LinearLayout 
+    		    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+    		    android:layout_weight="80"
+    		    android:orientation="horizontal"
+    		    android:weightSum="1">
+    		    	
+    		    
+	    		    <LinearLayout 
+	    		        android:layout_width="0dp"
+					    android:layout_height="match_parent"
+		    		    android:layout_weight="0.01"/>
+	    		    
+	    		    <LinearLayout 
+	    		        android:layout_width="0dp"
+					    android:layout_height="match_parent"
+		    		    android:layout_weight="0.99">
+		    		    
+	    		        	<ListView
+						       	android:id="@+id/show_bm_stats_list_bmsp"
+						       	android:layout_width="match_parent"
+							    android:layout_height="wrap_content"/>
+		    		    
+   		        	</LinearLayout>
+    		    
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="5"/>
+ 	
+</LinearLayout>

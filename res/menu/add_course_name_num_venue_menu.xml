@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/acnnvm_reset_tt"
+          android:title="Reset"
+          android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/acnnvm_set_tt"
+          android:title="Set Time Table"
+          android:showAsAction="ifRoom" />
+
+</menu>

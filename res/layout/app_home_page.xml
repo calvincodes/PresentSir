@@ -1,0 +1,233 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.arpit.iitg.presentsir.AppHome"
+    tools:ignore="MergeRootFrame"
+    android:background="@drawable/chalkboard_bg">
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+        android:weightSum="2">
+
+		    <LinearLayout
+		        android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:orientation="vertical"
+		        android:layout_weight="0.4"/>
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:orientation="vertical"
+		        android:layout_weight="1"
+		        android:weightSum="7">
+		        
+				        <LinearLayout
+				            android:layout_width="match_parent"
+						    android:layout_height="0dp"
+						    android:orientation="horizontal"
+					        android:layout_weight="1"
+					        android:weightSum="2">
+					        
+						            <LinearLayout 
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.5"/>
+						            
+						            <TextView
+						                android:id="@+id/next_class_tv_ahp"
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="1"
+									    android:background="?android:attr/selectableItemBackground"
+									    android:text="What's Next!"
+									    android:textSize="28sp"
+									    android:gravity="center"
+									    android:textColor="#FFFFFF"/>
+						            
+						            <LinearLayout 
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.5"/>
+				            
+				        </LinearLayout>
+				        
+			         	<LinearLayout
+				            android:layout_width="match_parent"
+						    android:layout_height="0dp"
+						    android:orientation="horizontal"
+					        android:layout_weight="0.5"/>
+				        
+				         <LinearLayout
+				            android:layout_width="match_parent"
+						    android:layout_height="0dp"
+						    android:orientation="horizontal"
+					        android:layout_weight="1"
+					        android:weightSum="2">
+					        
+						            <LinearLayout 
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.4"/>
+						            
+						            <TextView
+						                android:id="@+id/my_tt_tv_ahp"
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="1.2"
+									    android:background="?android:attr/selectableItemBackground"
+									    android:text="My TimeTable"
+									    android:textSize="28sp"
+									    android:gravity="center"
+									    android:textColor="#FFFFFF"/>
+						            
+						            <LinearLayout 
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.4"/>
+				            
+				        </LinearLayout>
+				        
+				        <LinearLayout
+				            android:layout_width="match_parent"
+						    android:layout_height="0dp"
+						    android:orientation="horizontal"
+					        android:layout_weight="0.5"/>
+				        
+				         <LinearLayout
+				            android:layout_width="match_parent"
+						    android:layout_height="0dp"
+						    android:orientation="horizontal"
+					        android:layout_weight="1"
+					        android:weightSum="2">
+					        
+						            <LinearLayout 
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.5"/>
+						            
+						            <TextView
+						                android:id="@+id/bunk_stats_tv_ahp"
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="1"
+									    android:background="?android:attr/selectableItemBackground"
+									    android:text="Bunk Stats"
+									    android:textSize="28sp"
+									    android:gravity="center"
+									    android:textColor="#FFFFFF"/>
+						            
+						            <LinearLayout 
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.5"/>
+				            
+				        </LinearLayout>
+				        
+				        <LinearLayout
+				            android:layout_width="match_parent"
+						    android:layout_height="0dp"
+						    android:orientation="horizontal"
+					        android:layout_weight="0.5"/>
+				        
+				         <LinearLayout
+				            android:layout_width="match_parent"
+						    android:layout_height="0dp"
+						    android:orientation="horizontal"
+					        android:layout_weight="1"
+					        android:weightSum="2">
+					        
+						            <LinearLayout 
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.65"/>
+						            
+						            <TextView
+						                android:id="@+id/settings_tv_ahp"
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.7"
+									    android:background="?android:attr/selectableItemBackground"
+									    android:text="Settings"
+									    android:textSize="28sp"
+									    android:gravity="center"
+									    android:textColor="#FFFFFF"/>
+						            
+						            <LinearLayout 
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.65"/>
+				            
+				        </LinearLayout>
+				        
+				        <LinearLayout
+				            android:layout_width="match_parent"
+						    android:layout_height="0dp"
+						    android:orientation="horizontal"
+					        android:layout_weight="0.5"/>
+				        
+				         <LinearLayout
+				            android:layout_width="match_parent"
+						    android:layout_height="0dp"
+						    android:orientation="horizontal"
+					        android:layout_weight="1"
+					        android:weightSum="2">
+					        
+						            <LinearLayout 
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.7"/>
+						            
+						            <TextView
+						                android:id="@+id/credits_tv_ahp"
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.6"
+									    android:background="?android:attr/selectableItemBackground"
+									    android:text="Credits"
+									    android:textSize="28sp"
+									    android:gravity="center"
+									    android:textColor="#FFFFFF"/>
+						            
+						            <LinearLayout 
+						                android:layout_width="0dp"
+									    android:layout_height="match_parent"
+									    android:layout_weight="0.7"/>
+				            
+				        </LinearLayout>
+		        
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:orientation="vertical"
+		        android:layout_weight="0.4"/>
+		    
+		    <TextView
+                android:id="@+id/copyright_tv_ahp"
+                android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="0.1"
+			    android:background="?android:attr/selectableItemBackground"
+			    android:text=" © 2014 Arpit Jain"
+			    android:textSize="16sp"
+			    android:gravity="left|bottom"
+			    android:textColor="#FFFFFF"/>
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:orientation="vertical"
+		        android:layout_weight="0.1"/>
+     
+     </LinearLayout>
+
+</LinearLayout>
+
+

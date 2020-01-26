@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/chalkboard_bg">
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:weightSum="3">
+	    
+        <LinearLayout
+            android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="0.1"/>
+        
+        <TextView
+            android:id="@+id/sound_tv_ss"
+            android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="0.9"
+	    	android:text="Sounds"
+	    	android:gravity="center|top"
+		    android:textSize="28sp"
+		    android:textColor="#FFFFFF"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="1"
+	    	android:orientation="horizontal"
+	    	android:weightSum="1">
+	    	
+            	<LinearLayout
+		            android:layout_width="0dp"
+			    	android:layout_height="match_parent"
+			    	android:layout_weight="0.05"/>
+            	
+            			<RadioGroup android:id="@+id/sound_profile_rg" 
+							android:layout_width="0dp"
+					    	android:layout_height="match_parent"
+					    	android:layout_weight="0.95">
+				        	    
+							    <RadioButton android:layout_width="fill_parent" 
+								    android:layout_height="wrap_content" 
+								    android:id="@+id/vib_mel_rb"
+									android:checked="false" 
+								    android:text="Vibration and Melody"
+								    android:textSize="28sp"
+								    android:textColor="#FFFFFF">
+							    </RadioButton>
+							    
+							    <RadioButton android:layout_width="fill_parent" 
+								    android:layout_height="wrap_content" 
+								    android:id="@+id/mel_rb"
+									android:text="Melody"
+									android:checked="false"
+								 	android:textSize="28sp"
+								    android:textColor="#FFFFFF">
+							    </RadioButton>
+							    
+							    <RadioButton android:layout_width="fill_parent" 
+								    android:layout_height="wrap_content" 
+								    android:id="@+id/vib_rb"
+									android:text="Vibration"
+									android:textSize="28sp"
+								    android:textColor="#FFFFFF">
+							    </RadioButton>
+							
+						</RadioGroup>
+							
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="0.25"
+	    	android:weightSum="1"
+	    	android:orientation="horizontal">
+            			
+            		<LinearLayout
+			      	    android:layout_width="0dp"
+				    	android:layout_height="match_parent"
+				    	android:layout_weight="0.4"/>
+            			
+            		<Button
+			      	    android:id="@+id/save_sound_ss"
+			      	    android:layout_width="0dp"
+				    	android:layout_height="match_parent"
+				    	android:layout_weight="0.2"
+			      	    android:text="Save"
+			      	    android:gravity="center"
+			      	    android:background="?android:attr/selectableItemBackground"
+					    android:textSize="28sp"
+					    android:textColor="#FFFFFF"/>
+            		
+            		<LinearLayout
+			      	    android:layout_width="0dp"
+				    	android:layout_height="match_parent"
+				    	android:layout_weight="0.4"/>
+            			
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="0.75"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

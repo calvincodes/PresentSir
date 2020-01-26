@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/chalkboard_bg">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:weightSum="100">
+        
+        	<LinearLayout 
+        	    android:layout_width="match_parent"
+	    		android:layout_height="0dp"
+	    		android:layout_weight="5"/>
+        	
+       		<TextView
+		        android:id="@+id/course_name_view_pt_nso_tv"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="10"
+		        android:gravity="center"
+		        android:text="Course Name"
+		        android:textSize="26sp"
+		        android:textColor="#FFFFFF"
+		        android:background="?android:attr/selectableItemBackground"/>
+       		
+       		<LinearLayout 
+        	    android:layout_width="match_parent"
+	    		android:layout_height="0dp"
+	    		android:layout_weight="5"/>
+       		
+       		<LinearLayout 
+       		    android:layout_width="match_parent"
+	    		android:layout_height="0dp"
+	    		android:layout_weight="10"
+	    		android:orientation="horizontal"
+	    		android:weightSum="2">
+	    		
+       		    		<Switch
+					        android:id="@+id/bunk_meter_switch_view_pt_nso_ctt"
+					        android:layout_width="0dp"
+				        	android:layout_height="match_parent"
+				        	android:layout_weight="1"
+					        android:text="BM"
+							android:gravity="right|center"
+							android:textSize="20sp"
+		        			android:textColor="#FFFFFF"/>
+       		    		
+       		    		<TextView 
+					        android:id="@+id/bm_count_tv_view_pt_nso_tt"   
+					        android:layout_width="0dp"
+					   		android:layout_height="fill_parent"
+					   		android:layout_weight="1"
+					   		android:gravity="center"
+					   		android:text="Bunk Count: 0"
+					   		android:textSize="22sp"
+					        android:textColor="#FFFFFF"
+					        android:background="?android:attr/selectableItemBackground"/>
+       		    
+       		    
+       		</LinearLayout>
+       		
+       		<LinearLayout 
+        	    android:layout_width="match_parent"
+	    		android:layout_height="0dp"
+	    		android:layout_weight="2"/>
+       		
+       		<LinearLayout 
+        	    android:layout_width="match_parent"
+	    		android:layout_height="0dp"
+	    		android:layout_weight="60"
+	    		android:orientation="vertical"
+	    		android:weightSum="7">
+       		    		
+       		    	<LinearLayout 
+       		    	    android:layout_width="match_parent"
+			    		android:layout_height="0dp"
+			    		android:layout_weight="0.5"/>
+       		    	
+       		    	<LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:orientation="horizontal"
+				        android:layout_weight="1"
+				        android:weightSum="3">
+	        
+				        	    <CheckBox
+				        	        android:id="@+id/check_mon_view_pt_nso_ctt" 
+				        	        android:layout_width="0dp"
+						        	android:layout_height="match_parent"
+						        	android:layout_weight="0.3"/>
+						    	
+				        	    <TextView
+				        	        android:id="@+id/mon_disp_tv_vpnp"
+				        	        android:layout_width="0dp"
+						        	android:layout_height="match_parent"
+						        	android:layout_weight="1.2"
+						        	android:text="Monday"
+						        	android:background="?android:attr/selectableItemBackground"
+								    android:textSize="24sp"
+								    android:gravity="center"
+								    android:textColor="#FFFFFF"/>
+				        	    
+				        	    <TextView 
+				        	        android:id="@+id/time_slot_tv_mon_view_pt_nso_ctt"
+				        	        android:layout_width="0dp"
+						        	android:layout_height="match_parent"
+						        	android:layout_weight="1.5"
+						        	android:text="5.45am - 6.30am"
+						        	android:background="?android:attr/selectableItemBackground"
+								    android:textSize="20sp"
+								    android:gravity="center"
+								    android:textColor="#FFFFFF"/>
+	      	    
+	    	    </LinearLayout>
+	    	    
+	      	<LinearLayout
+	    		android:layout_width="match_parent"
+   				android:layout_height="wrap_content"
+   				android:layout_weight="0.5"/>
+	      	
+	      	<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_weight="1"
+		        android:weightSum="3">
+	        
+			        	    <CheckBox
+			        	        android:id="@+id/check_tues_view_pt_nso_ctt" 
+			        	        android:layout_width="0dp"
+					        	android:layout_height="match_parent"
+					        	android:layout_weight="0.3"
+					        	/>
+					    	
+			        	    <TextView
+			        	        android:id="@+id/tues_disp_tv_vpnp"
+			        	        android:layout_width="0dp"
+					        	android:layout_height="match_parent"
+					        	android:layout_weight="1.2"
+					        	android:text="Tuesday"
+					        	android:background="?android:attr/selectableItemBackground"
+							    android:textSize="24sp"
+							    android:gravity="center"
+							    android:textColor="#FFFFFF"/>
+			        	    
+			        	    <TextView 
+			        	        android:id="@+id/time_slot_tv_tues_view_pt_nso_ctt"
+			        	        android:layout_width="0dp"
+					        	android:layout_height="match_parent"
+					        	android:layout_weight="1.5"
+					        	android:text="5.45am - 6.30am"
+					        	android:background="?android:attr/selectableItemBackground"
+							    android:textSize="20sp"
+							    android:gravity="center"
+							    android:textColor="#FFFFFF"/>
+	      	    
+	    	    </LinearLayout>
+	    	    
+	      	<LinearLayout
+	    		android:layout_width="match_parent"
+   				android:layout_height="wrap_content"
+   				android:layout_weight="0.5"/>
+	    	    
+	      	<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_weight="1"
+		        android:weightSum="3">
+	        
+		        	    <CheckBox
+		        	        android:id="@+id/check_wed_view_pt_nso_ctt" 
+		        	        android:layout_width="0dp"
+				        	android:layout_height="match_parent"
+				        	android:layout_weight="0.3"/>
+				    	
+		        	    <TextView
+		        	        android:id="@+id/wed_disp_tv_vpnp"
+		        	        android:layout_width="0dp"
+				        	android:layout_height="match_parent"
+				        	android:layout_weight="1.2"
+				        	android:text="Wednesday"
+				        	android:background="?android:attr/selectableItemBackground"
+						    android:textSize="24sp"
+						    android:gravity="center"
+						    android:textColor="#FFFFFF"/>
+		        	    
+		        	    <TextView 
+		        	        android:id="@+id/time_slot_tv_wed_view_pt_nso_ctt"
+		        	        android:layout_width="0dp"
+				        	android:layout_height="match_parent"
+				        	android:layout_weight="1.5"
+				        	android:text="5.45am - 6.30am"
+				        	android:background="?android:attr/selectableItemBackground"
+						    android:textSize="20sp"
+						    android:gravity="center"
+						    android:textColor="#FFFFFF"/>
+	      	    
+	    	    </LinearLayout>
+	    	    
+	      	<LinearLayout
+	    		android:layout_width="match_parent"
+   				android:layout_height="wrap_content"
+   				android:layout_weight="0.5"/>
+	      	
+	      	<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_weight="1"
+		        android:weightSum="3">
+	        
+			        	    <CheckBox
+			        	        android:id="@+id/check_thurs_view_pt_nso_ctt" 
+			        	        android:layout_width="0dp"
+					        	android:layout_height="match_parent"
+					        	android:layout_weight="0.3"
+					        	/>
+					    	
+			        	    <TextView
+			        	        android:id="@+id/thurs_disp_tv_vpnp"
+			        	        android:layout_width="0dp"
+					        	android:layout_height="match_parent"
+					        	android:layout_weight="1.2"
+					        	android:text="Thursday"
+					        	android:background="?android:attr/selectableItemBackground"
+							    android:textSize="24sp"
+							    android:gravity="center"
+							    android:textColor="#FFFFFF"/>
+			        	    
+			        	    <TextView 
+			        	        android:id="@+id/time_slot_tv_thurs_view_pt_nso_ctt"
+			        	        android:layout_width="0dp"
+					        	android:layout_height="match_parent"
+					        	android:layout_weight="1.5"
+					        	android:text="5.45am - 6.30am"
+					        	android:background="?android:attr/selectableItemBackground"
+							    android:textSize="20sp"
+							    android:gravity="center"
+							    android:textColor="#FFFFFF"/>
+	      	    
+	    	    </LinearLayout>
+	    	    
+	      	<LinearLayout
+	    		android:layout_width="match_parent"
+   				android:layout_height="wrap_content"
+   				android:layout_weight="0.5"/>
+	      	
+	      	<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_weight="1"
+		        android:weightSum="3">
+	        
+			        	    <CheckBox
+			        	        android:id="@+id/check_fri_view_pt_nso_ctt" 
+			        	        android:layout_width="0dp"
+					        	android:layout_height="match_parent"
+					        	android:layout_weight="0.3"
+					        	/>
+					    	
+			        	    <TextView
+			        	        android:id="@+id/fri_disp_tv_vpnp"
+			        	        android:layout_width="0dp"
+					        	android:layout_height="match_parent"
+					        	android:layout_weight="1.2"
+					        	android:text="Friday"
+					        	android:background="?android:attr/selectableItemBackground"
+							    android:textSize="24sp"
+							    android:gravity="center"
+							    android:textColor="#FFFFFF"/>
+			        	    
+			        	    <TextView 
+			        	        android:id="@+id/time_slot_tv_fri_view_pt_nso_ctt"
+			        	        android:layout_width="0dp"
+					        	android:layout_height="match_parent"
+					        	android:layout_weight="1.5"
+					        	android:text="5.45am - 6.30am"
+					        	android:background="?android:attr/selectableItemBackground"
+							    android:textSize="20sp"
+							    android:gravity="center"
+							    android:textColor="#FFFFFF"/>
+	      	    
+	    	    </LinearLayout>
+       		    	
+   		    </LinearLayout>
+   		    
+       		<LinearLayout 
+        	    android:layout_width="match_parent"
+	    		android:layout_height="0dp"
+	    		android:layout_weight="8"/>
+        
+    </LinearLayout>
+
+</LinearLayout>
+

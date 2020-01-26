@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/chalkboard_bg">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:weightSum="3">
+	    
+        <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="0.1"/>
+	    
+        <TextView
+            android:id="@+id/credits_title"
+            android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="0.2"
+		    android:background="?android:attr/selectableItemBackground"
+		    android:text="Credits"
+		    android:textSize="28sp"
+		    android:gravity="center|top"
+		    android:textColor="#FFFFFF"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="0.3"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:orientation="vertical"
+		    android:weightSum="4">
+		    
+        			<TextView
+			            android:id="@+id/app_developer_designer_cp"
+			            android:layout_width="match_parent"
+					    android:layout_height="0dp"
+					    android:layout_weight="1"
+					    android:background="?android:attr/selectableItemBackground"
+					    android:text="Designed and Developed By"
+					    android:textSize="25sp"
+					    android:gravity="center|bottom"
+					    android:textColor="#FFFFFF"/>
+        			
+        			<LinearLayout 
+        			    android:layout_width="match_parent"
+					    android:layout_height="0dp"
+					    android:layout_weight="3"
+					    android:orientation="horizontal"
+					    android:weightSum="1">
+        			   	
+        			    		<LinearLayout
+        			    		    android:layout_width="0dp"
+								    android:layout_height="match_parent"
+								    android:layout_weight="0.2"/>
+        			    
+        			    		<TextView
+						            android:id="@+id/my_name_cp"
+						            android:layout_width="0dp"
+								    android:layout_height="match_parent"
+								    android:layout_weight="0.6"
+								    android:background="?android:attr/selectableItemBackground"
+								    android:text="Arpit Jain\nFinal Year UG\nIIT Guwahati"
+								    android:textSize="28sp"
+								    android:gravity="center|top"
+								    android:textColor="#FFFFFF"/>
+        			    		
+        			    		<LinearLayout
+        			    		    android:layout_width="0dp"
+								    android:layout_height="match_parent"
+								    android:layout_weight="0.2"/>
+        			    
+        			</LinearLayout>
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="0.85"
+		    android:orientation="horizontal"
+		    android:weightSum="1">
+            
+            	<LinearLayout
+            	    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="0.02"/>
+            	
+            	<TextView 
+		            android:id="@+id/disclaimer_msg"
+		            android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="0.98"
+				    android:background="?android:attr/selectableItemBackground"
+				    android:textSize="26sp"
+				    android:gravity="left"
+				    android:textColor="#FFFFFF"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="0.5"
+		    android:orientation="vertical"
+		    android:weightSum="2">
+        			
+            <LinearLayout 
+                android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="0.3"/>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="0.7"
+			    android:orientation="horizontal"
+			    android:weightSum="1">
+        			    		
+                		<LinearLayout
+       			    		    android:layout_width="0dp"
+							    android:layout_height="match_parent"
+							    android:layout_weight="0.4"/>
+        			    
+		    			<Button
+				            android:id="@+id/send_feedback_b_cp"
+				            android:layout_width="0dp"
+						    android:layout_height="match_parent"
+						    android:layout_weight="0.2"
+						    android:background="?android:attr/selectableItemBackground"
+						    android:text="Send"
+						    android:textSize="24sp"
+						    android:gravity="center|bottom"
+						    android:textColor="#FFFFFF"/>
+      			    		
+   			    		<LinearLayout
+   			    		    android:layout_width="0dp"
+						    android:layout_height="match_parent"
+						    android:layout_weight="0.4"/>
+        			    		
+            </LinearLayout>
+            
+            <TextView
+                android:id="@+id/feedback_msg_cp"
+                android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="1"
+			    android:background="?android:attr/selectableItemBackground"
+			    android:text="Click to provide your feedback or report a bug"
+			    android:textSize="14sp"
+			    android:gravity="center|top"
+			    android:textColor="#FFFFFF"/>
+        			
+       </LinearLayout>
+        
+        
+    </LinearLayout>
+
+</LinearLayout>
